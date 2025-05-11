@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.dashboard-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+}
+.user-profile {
+    background-color: #5e60ce;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.days{
+    background-color:#B5214BF5;
+    width:190px;
+    height:80px;
+    border-box:10px;
+    border-radius:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.user-profile h2 {
+    margin: 10px 0;
+}
+
+.user-profile p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.activity-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.card p {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.card small {
+    color: #777;
+}
+
+.work {
+    border-top: 50px solid #52F311FA;
+}
+
+.play {
+    border-top: 50px solid #BC8F8F;
+}
+
+.study {
+    border-top: 50px solid #ADD8EC;
+}
+
+.exercise {
+    border-top: 50px solid #FF7F50;
+}
+
+.social {
+    border-top: 50px solid #F4A460;
+}
+
+.self-care {
+    border-top: 50px solid #42889AFA;
+}
+.gaming{
+    border-top: 50px solid #C19427FA;
+}
+.coding{
+    border-top: 50px solid#1A7BC6FA;
+}
